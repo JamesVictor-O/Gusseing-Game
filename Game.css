@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.main .G{
+    margin-left: 100px;
+}
+.main .G span{
+    background-color: aqua;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.main .S span{
+    background-color: aqua;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+img{
+    width: 70px;
+    border: 1px solid black;
+    margin: 10px;
+}
+#grid{
+    background-color: black;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+#btn{
+    visibility: hidden;
+}
